@@ -1,0 +1,3 @@
+Real-Time Data Processing: Weather data is fetched at intervals and processed using rolling aggregation functions.
+Scalability: The system is designed to be easily extendable, with support for adding more weather parameters.
+Alert System: The threshold system is flexible and can be customized by the user.
