@@ -1,0 +1,19 @@
+weather-monitoring-app/
+│
+├── src/
+│   ├── config/
+│   │   └── settings.py           # Configurable parameters like API Key, cities, and intervals
+│   ├── utils/
+│   │   └── weather_api.py        # Fetches data from OpenWeatherMap
+│   └── main.py                   # Main script for executing the application
+│
+├── tests/
+│   ├── test_weather.py           # Unit and integration tests
+│
+├── visualizations/
+│   └── plots.py                  # Visualize data (matplotlib/plotly)
+│
+├── requirements.txt              # Dependencies
+├── Dockerfile                    # Dockerfile for the project setup
+├── docker-compose.yml            # For managing containers like database, webserver
+└── README.md                     # Detailed instructions and project overview
