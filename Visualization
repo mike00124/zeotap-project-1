@@ -1,0 +1,13 @@
+Use matplotlib or plotly for visualizing data in visualizations/plots.py.
+
+  import matplotlib.pyplot as plt
+
+def plot_temperature_trends(daily_summaries):
+    dates = [summary['date'] for summary in daily_summaries]
+    temps = [summary['avg_temp'] for summary in daily_summaries]
+    
+    plt.plot(dates, temps)
+    plt.xlabel('Date')
+    plt.ylabel('Temperature (C)')
+    plt.title('Daily Temperature Trends')
+    plt.show()
