@@ -1,0 +1,18 @@
+pip install -r requirements.txt
+Set up the OpenWeatherMap API key:
+export API_KEY='your_openweathermap_api_key'
+Run the application:
+
+python src/main.py
+
+
+(Optional) Run via Docker
+
+docker-compose up --build
+
+
+Run tests:
+
+python -m unittest discover
+
+
