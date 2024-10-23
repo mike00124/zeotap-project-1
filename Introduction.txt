@@ -1,0 +1,8 @@
+Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates :-   
+
+
+The Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates is designed to provide continuous monitoring of weather conditions using data from the OpenWeatherMap API. By collecting weather updates at regular intervals, the system processes the data in real-time, calculates daily summaries, and triggers alerts when specified conditions, such as temperature thresholds, are exceeded. The solution aims to offer actionable insights into weather trends by performing daily rollups that include average, maximum, and minimum temperatures, as well as identifying the dominant weather condition.
+
+This application focuses on Indian metro cities like Delhi, Mumbai, Chennai, Bangalore, Kolkata, and Hyderabad, ensuring timely alerts and comprehensive weather reports. Additionally, it includes options for user-configurable thresholds, customizable alerts, and visualizations for understanding historical weather trends.
+
+By leveraging weather data in real-time, this system can be extended to support other weather parameters and future forecast predictions, making it a scalable solution for weather monitoring and analysis.
